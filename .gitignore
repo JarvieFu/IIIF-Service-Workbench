@@ -1,0 +1,26 @@
+# 运行时数据与日志（含本机绝对路径，不要提交）
+logs/
+sas/data/
+sas/tmp/
+sas/logs/
+
+# 上游第三方二进制（65 MB WAR / 9 MB Jetty Runner）：不入库，见 sas/README.md
+sas/*.war
+sas/dependency/
+sas/*.zip
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 含本机绝对路径的本地配置（由控制台「选择文件夹」生成）
+data/image-source.conf
+
+# 测试输出与编辑备份
+ui-test.log
+*.bak-*
+
+# 操作系统杂项
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,10 @@
+# 统一按文本处理源码，避免 Windows/Linux 换行差异
+* text=auto
+
+# 二进制文件不做换行转换
+*.exe binary
+*.png binary
+*.ico binary
+*.war binary
+*.jar binary
+*.zip binary
